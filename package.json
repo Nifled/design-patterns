@@ -1,0 +1,25 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "command": "tsc && node dist/command",
+    "decorator": "tsc && node dist/decorator",
+    "observer": "tsc && node dist/observer",
+    "strategy": "tsc && node dist/strategy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nifled/design-patterns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nifled/design-patterns/issues"
+  },
+  "homepage": "https://github.com/Nifled/design-patterns#readme",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
