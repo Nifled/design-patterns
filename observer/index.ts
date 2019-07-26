@@ -15,6 +15,7 @@ weatherStation.registerObserver(lcdDisplay);
 // simulate a weather station firing off weather updates
 updateEvery(3000, () => {
   const randomeTemp = Math.random() * 100 + 1;
-    weatherStation.temperature = randomeTemp;
-    weatherStation.notify();
+  weatherStation.temperature = randomeTemp;
+
+  weatherStation.notify();
 });
