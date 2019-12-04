@@ -7,7 +7,8 @@
     "command": "tsc && node dist/command",
     "decorator": "tsc && node dist/decorator",
     "observer": "tsc && node dist/observer",
-    "strategy": "tsc && node dist/strategy"
+    "strategy": "tsc && node dist/strategy",
+    "adapter": "tsc && node dist/adapter"
   },
   "repository": {
     "type": "git",
